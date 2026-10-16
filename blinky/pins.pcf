@@ -1,0 +1,4 @@
+# TinyFPGA BX pin constraints (iCE40LP8K, CM81 package)
+set_io --warn-no-port CLK   B2
+set_io --warn-no-port LED   B3
+set_io --warn-no-port USBPU A3
