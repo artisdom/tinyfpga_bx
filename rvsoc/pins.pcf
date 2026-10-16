@@ -1,0 +1,10 @@
+# TinyFPGA BX pin constraints (iCE40LP8K, CM81 package)
+set_io CLK   B2
+set_io LED   B3
+set_io USBP  B4
+set_io USBN  A4
+set_io USBPU A3
+
+# Clock targets for timing analysis
+set_frequency clk_48mhz 48
+set_frequency clk_24mhz 24
